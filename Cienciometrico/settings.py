@@ -124,9 +124,9 @@ WSGI_APPLICATION = 'Cienciometrico.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Cienciometrico2',
+        'NAME': 'cienciometrico',
         'USER': 'postgres',
-        'PASSWORD': '1945',
+        'PASSWORD': 'drex',
         'HOST': 'localhost',
         'PORT': 5432,
     }
